@@ -56,7 +56,7 @@ Using the song and log datasets, you'll need to create a star schema optimized f
 
 Instructions
 You will need to create a configuration file with the file name dwh.cfg and the following structure:
-
+```
 [CLUSTER]
 HOST=<your_host>
 DB_NAME=<your_db_name>
@@ -77,7 +77,7 @@ SONG_DATA='s3://udacity-dend/song_data'
 [AWS]
 ACCESS_KEY=<your_access_key>
 SECRET_KEY=<your_secret_key>
-``
+```
 
 ## **How to run?**
 * Run `create_tables.py` to create your database and tables.
