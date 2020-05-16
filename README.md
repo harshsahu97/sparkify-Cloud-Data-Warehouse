@@ -19,11 +19,17 @@ In this project, I'll apply what you've learned on data warehouses and AWS to bu
 ## **Project Datasets**
 
 ### **Song Dataset**
-The first dataset is a subset of real data from the [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/). Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
+I'll be working with two datasets that reside in S3. Here are the S3 links for each:
 ```
 Song data: s3://udacity-dend/song_data
 Log data: s3://udacity-dend/log_data
 Log data json path: s3://udacity-dend/log_json_path.json
+```
+
+The first dataset is a subset of real data from the [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/). Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
+```
+song_data/A/B/C/TRABCEI128F424C983.json
+song_data/A/A/B/TRAABJL12903CDCF1A.json
 ```
 And below is an example of what a single song file, TRAABJL12903CDCF1A.json, looks like.
 ```
