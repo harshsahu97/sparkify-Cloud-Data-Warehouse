@@ -15,7 +15,7 @@ In this project, I'll apply what you've learned on data warehouses and AWS to bu
   ### Important **pip** packages used in this project
   * [psycopg2](https://pypi.org/project/psycopg2/)
   * [Pandas](https://pypi.org/project/pandas/)
-
+  * [boto3](https://pypi.org/project/boto3/)
 ## **Project Datasets**
 
 ### **Song Dataset**
